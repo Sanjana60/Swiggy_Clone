@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:swiggy_clone/Nav/Nav.dart';
+import 'First/First.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,8 +17,16 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: ,
+        body: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 20.0),
+          child: Stack(
+            children: [
+              Nav(),
+            ],
+          ),
+        ),
       ),
     );
   }
