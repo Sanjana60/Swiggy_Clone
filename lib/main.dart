@@ -48,10 +48,6 @@ class _MyAppState extends State<MyApp> {
                 Column(
                   children: [
                     Third(),
-                    SizedBox(
-                      height: 20.0,
-                    ),
-                    Fourth(),
                   ],
                 ),
               ],
