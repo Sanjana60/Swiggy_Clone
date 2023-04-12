@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:swiggy_clone/Nav/Nav.dart';
 import 'package:swiggy_clone/Search/Search.dart';
+import 'package:swiggy_clone/Second/Second.dart';
 import 'First/First.dart';
 
 void main() {
@@ -34,6 +35,10 @@ class _MyAppState extends State<MyApp> {
                   height: 20,
                 ),
                 First(),
+                SizedBox(
+                  height: 20,
+                ),
+                Second(),
               ],
             ),
           ),
