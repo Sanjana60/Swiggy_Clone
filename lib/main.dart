@@ -3,6 +3,7 @@ import 'package:swiggy_clone/Nav/Nav.dart';
 import 'package:swiggy_clone/Search/Search.dart';
 import 'package:swiggy_clone/Third/Third.dart';
 import 'First/First.dart';
+import 'Fourth/Fourth.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,26 +23,38 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: SingleChildScrollView(
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20.0),
-            child: Container(
-              child: Column(
-                children: [
-                  Nav(),
-                  SizedBox(
-                    height: 15,
+          child: Container(
+            child: Column(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                  child: Column(
+                    children: [
+                      Nav(),
+                      SizedBox(
+                        height: 15,
+                      ),
+                      Search(),
+                      SizedBox(
+                        height: 20,
+                      ),
+                      First(),
+                      SizedBox(
+                        height: 300,
+                      ),
+                    ],
                   ),
-                  Search(),
-                  SizedBox(
-                    height: 20,
-                  ),
-                  First(),
-                  SizedBox(
-                    height: 300,
-                  ),
-                  Third(),
-                ],
-              ),
+                ),
+                Column(
+                  children: [
+                    Third(),
+                    SizedBox(
+                      height: 20.0,
+                    ),
+                    Fourth(),
+                  ],
+                ),
+              ],
             ),
           ),
         ),

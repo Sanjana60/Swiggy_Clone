@@ -16,26 +16,40 @@ class _ThirdState extends State<Third> {
       // color: Colors.grey,
       width: MediaQuery.of(context).size.width,
       height: MediaQuery.of(context).size.height,
-      child: Row(
-        children: [
-          Container(
-            height: 1,
-            width: 5,
-            color: CupertinoColors.systemGrey2.withOpacity(0.5),
-          ),
-          SizedBox(
-            width: 5.0,
-          ),
-          Text(
-            'DISCOVER SWIGGY',
-            style: TextStyle(
-              color: Colors.black,
-              fontWeight: FontWeight.bold,
-              fontSize: 10.0,
-              fontStyle: FontStyle.normal,
+      child: Padding(
+        padding: const EdgeInsets.only(top: 20.0, left: 10.0),
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            Container(
+              height: 3,
+              width: 50,
+              color: CupertinoColors.systemGrey2.withOpacity(0.5),
             ),
-          ),
-        ],
+            // SizedBox(
+            //   width: 50.0,
+            // ),
+            Text(
+              'DISCOVER SWIGGY',
+              style: TextStyle(
+                color: CupertinoColors.black.withOpacity(0.9),
+                fontWeight: FontWeight.w900,
+                fontSize: 10.0,
+                fontStyle: FontStyle.normal,
+                letterSpacing: 2,
+              ),
+            ),
+            // SizedBox(
+            //   width: 50.0,
+            // ),
+            Container(
+              height: 3,
+              width: 50,
+              color: CupertinoColors.systemGrey2.withOpacity(0.5),
+            ),
+          ],
+        ),
       ),
     );
   }
