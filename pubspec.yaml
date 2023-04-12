@@ -42,7 +42,7 @@ dev_dependencies:
     sdk: flutter
   flutter_swiper: ^1.1.6
   carousel_indicator: ^1.0.6
-  carousel_slider: ^2.1.0
+  carousel_slider: ^4.0.0
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
