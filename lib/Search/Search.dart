@@ -19,6 +19,7 @@ class _SearchState extends State<Search> {
           TextFormField(
             textAlign: TextAlign.start,
             decoration: InputDecoration(
+              border: InputBorder.none,
               // suffixIcon: Icon(Icons.mic),
               contentPadding: const EdgeInsets.only(bottom: 18, left: 5),
               hintText: "Search for dishes, restaurants",
