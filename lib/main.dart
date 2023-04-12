@@ -30,6 +30,10 @@ class _MyAppState extends State<MyApp> {
                   height: 15,
                 ),
                 Search(),
+                SizedBox(
+                  height: 20,
+                ),
+                First(),
               ],
             ),
           ),
