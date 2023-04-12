@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:swiggy_clone/Nav/Nav.dart';
+import 'package:swiggy_clone/Search/Search.dart';
 import 'First/First.dart';
 
 void main() {
@@ -21,10 +22,16 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         body: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20.0),
-          child: Stack(
-            children: [
-              Nav(),
-            ],
+          child: Container(
+            child: Column(
+              children: [
+                Nav(),
+                SizedBox(
+                  height: 15,
+                ),
+                Search(),
+              ],
+            ),
           ),
         ),
       ),
