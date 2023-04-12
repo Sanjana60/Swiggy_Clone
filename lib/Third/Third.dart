@@ -210,7 +210,10 @@ class _ThirdState extends State<Third> {
                   letterSpacing: 0.5,
                 ),
               ),
-            )
+            ),
+            SizedBox(
+              height: 100.0,
+            ),
           ],
         ),
       ),
