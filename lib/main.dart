@@ -3,7 +3,6 @@ import 'package:swiggy_clone/Nav/Nav.dart';
 import 'package:swiggy_clone/Search/Search.dart';
 import 'package:swiggy_clone/Third/Third.dart';
 import 'First/First.dart';
-import 'Fourth/Fourth.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,6 +25,7 @@ class _MyAppState extends State<MyApp> {
           child: Container(
             child: Column(
               children: [
+                // HomePage(),
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 20.0),
                   child: Column(
