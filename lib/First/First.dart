@@ -15,24 +15,21 @@ class _FirstState extends State<First> {
       children: [
         Column(
           children: [
-            Stack(
-              children: [
-                Container(
-                  height: 60,
-                  width: 65,
-                  alignment: Alignment.bottomCenter,
-                  decoration: BoxDecoration(
-                      color: Colors.transparent.withOpacity(0.1),
-                      borderRadius: BorderRadius.circular(10.0)),
+            Container(
+              height: 60,
+              width: 65,
+              alignment: Alignment.bottomCenter,
+              decoration: BoxDecoration(
+                  color: Colors.transparent.withOpacity(0.1),
+                  borderRadius: BorderRadius.circular(10.0)),
+              child: Image(
+                image: AssetImage(
+                  'images/5.jpeg',
                 ),
-                Image(
-                  image: AssetImage(
-                    'images/fast-food.png',
-                  ),
-                  alignment: Alignment.bottomCenter,
-                  height: 60,
-                ),
-              ],
+                fit: BoxFit.fill,
+                alignment: Alignment.bottomCenter,
+                height: 60,
+              ),
             ),
             SizedBox(
               height: 5,
@@ -99,7 +96,7 @@ class _FirstState extends State<First> {
                 ),
                 Image(
                   image: AssetImage(
-                    'images/delivery-man.png',
+                    'images/8.jpeg',
                   ),
                   alignment: Alignment.bottomCenter,
                   height: 60,
