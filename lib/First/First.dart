@@ -15,13 +15,8 @@ class _FirstState extends State<First> {
       children: [
         Column(
           children: [
-            Container(
-              height: 60,
-              width: 65,
-              alignment: Alignment.bottomCenter,
-              decoration: BoxDecoration(
-                  color: Colors.transparent.withOpacity(0.1),
-                  borderRadius: BorderRadius.circular(10.0)),
+            ClipRRect(
+              borderRadius: BorderRadius.circular(10),
               child: Image(
                 image: AssetImage(
                   'images/5.jpeg',
@@ -29,6 +24,7 @@ class _FirstState extends State<First> {
                 fit: BoxFit.fill,
                 alignment: Alignment.bottomCenter,
                 height: 60,
+                width: 60,
               ),
             ),
             SizedBox(
@@ -48,24 +44,17 @@ class _FirstState extends State<First> {
         ),
         Column(
           children: [
-            Stack(
-              children: [
-                Container(
-                  height: 60,
-                  width: 65,
-                  alignment: Alignment.bottomCenter,
-                  decoration: BoxDecoration(
-                      color: Colors.transparent.withOpacity(0.1),
-                      borderRadius: BorderRadius.circular(10.0)),
+            ClipRRect(
+              borderRadius: BorderRadius.circular(10),
+              child: Image(
+                image: AssetImage(
+                  'images/10.jpeg',
                 ),
-                Image(
-                  image: AssetImage(
-                    'images/food-delivery.png',
-                  ),
-                  alignment: Alignment.bottomCenter,
-                  height: 60,
-                ),
-              ],
+                fit: BoxFit.fill,
+                alignment: Alignment.bottomCenter,
+                height: 60,
+                width: 60,
+              ),
             ),
             SizedBox(
               height: 5,
@@ -84,24 +73,17 @@ class _FirstState extends State<First> {
         ),
         Column(
           children: [
-            Stack(
-              children: [
-                Container(
-                  height: 60,
-                  width: 65,
-                  alignment: Alignment.bottomCenter,
-                  decoration: BoxDecoration(
-                      color: Colors.transparent.withOpacity(0.1),
-                      borderRadius: BorderRadius.circular(10.0)),
+            ClipRRect(
+              borderRadius: BorderRadius.circular(10),
+              child: Image(
+                image: AssetImage(
+                  'images/8.jpeg',
                 ),
-                Image(
-                  image: AssetImage(
-                    'images/8.jpeg',
-                  ),
-                  alignment: Alignment.bottomCenter,
-                  height: 60,
-                ),
-              ],
+                fit: BoxFit.fill,
+                alignment: Alignment.bottomCenter,
+                height: 60,
+                width: 60,
+              ),
             ),
             SizedBox(
               height: 5,
@@ -120,24 +102,17 @@ class _FirstState extends State<First> {
         ),
         Column(
           children: [
-            Stack(
-              children: [
-                Container(
-                  height: 60,
-                  width: 65,
-                  alignment: Alignment.bottomCenter,
-                  decoration: BoxDecoration(
-                      color: Colors.transparent.withOpacity(0.1),
-                      borderRadius: BorderRadius.circular(10.0)),
+            ClipRRect(
+              borderRadius: BorderRadius.circular(10),
+              child: Image(
+                image: AssetImage(
+                  'images/9.jpeg',
                 ),
-                Image(
-                  image: AssetImage(
-                    'images/steak.png',
-                  ),
-                  alignment: Alignment.bottomCenter,
-                  height: 60,
-                ),
-              ],
+                fit: BoxFit.fill,
+                alignment: Alignment.bottomCenter,
+                height: 60,
+                width: 60,
+              ),
             ),
             SizedBox(
               height: 5,
