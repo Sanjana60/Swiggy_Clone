@@ -42,15 +42,15 @@ class _MyAppState extends State<MyApp> {
                       SizedBox(
                         height: 15,
                       ),
-                      Slider_Work(),
-                      SizedBox(
-                        height: 15,
-                      ),
                     ],
                   ),
                 ),
                 Column(
                   children: [
+                    Slider_Work(),
+                    SizedBox(
+                      height: 15,
+                    ),
                     Third(),
                   ],
                 ),
