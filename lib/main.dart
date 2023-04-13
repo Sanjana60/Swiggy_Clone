@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:swiggy_clone/Nav/Nav.dart';
 import 'package:swiggy_clone/Search/Search.dart';
+import 'package:swiggy_clone/Slider_Work/Slider_Work.dart';
 import 'package:swiggy_clone/Third/Third.dart';
 import 'First/First.dart';
 
@@ -25,7 +26,6 @@ class _MyAppState extends State<MyApp> {
           child: Container(
             child: Column(
               children: [
-                // HomePage(),
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 20.0),
                   child: Column(
@@ -40,7 +40,11 @@ class _MyAppState extends State<MyApp> {
                       ),
                       First(),
                       SizedBox(
-                        height: 300,
+                        height: 15,
+                      ),
+                      Slider_Work(),
+                      SizedBox(
+                        height: 15,
                       ),
                     ],
                   ),
